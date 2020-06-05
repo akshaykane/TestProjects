@@ -81,5 +81,11 @@ public class SlackApplicationPage {
         return driver.findElement(By.xpath("//i[@class='c-icon c-icon--chevron-right']"));
     }
 
+    public WebElement channelDetailsButton() {
+        return driver.findElement(By.xpath("//button[@data-qa='channel-details']"));
+    }
+    
+    
+ 
     
 }

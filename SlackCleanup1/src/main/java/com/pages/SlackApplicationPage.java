@@ -32,7 +32,7 @@ public class SlackApplicationPage {
     }
     
     public WebElement channelAdditionalOptional() {
-        return driver.findElement(By.xpath("//div[@class='c-menu_item__label'][text()='Additional options…']"));
+        return driver.findElement(By.xpath("//div[@class='c-menu_item__label'][text()='Additional options']"));
     }
     
     public WebElement deleteChannelOption() {

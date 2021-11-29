@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-11-29T05:40:57Z" name="Default suite" finished-at="2021-11-29T05:41:08Z" duration-ms="10875">
+    <groups>
+    </groups>
+    <test started-at="2021-11-29T05:40:57Z" name="Default test" finished-at="2021-11-29T05:41:08Z" duration-ms="10875">
+      <class name="com.selenium.tests.GoogleSearchTest">
+        <test-method is-config="true" signature="init()[pri:0, instance:com.selenium.tests.GoogleSearchTest@544fa968]" started-at="2021-11-29T05:40:57Z" name="init" finished-at="2021-11-29T05:41:02Z" duration-ms="5190" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="typeInGoogleSearch()[pri:0, instance:com.selenium.tests.GoogleSearchTest@544fa968]" started-at="2021-11-29T05:41:02Z" name="typeInGoogleSearch" finished-at="2021-11-29T05:41:07Z" duration-ms="5060" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- typeInGoogleSearch -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.selenium.tests.GoogleSearchTest@544fa968]" started-at="2021-11-29T05:41:07Z" name="closeBrowser" finished-at="2021-11-29T05:41:08Z" duration-ms="610" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.selenium.tests.GoogleSearchTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
